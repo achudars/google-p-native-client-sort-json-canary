@@ -1,0 +1,14 @@
+{
+  "files": {},
+  "program": {
+    "x86-64": {
+      "url": "sort_json_x86_64.nexe"
+    },
+    "arm": {
+      "url": "sort_json_arm.nexe"
+    },
+    "x86-32": {
+      "url": "sort_json_x86_32.nexe"
+    }
+  }
+}

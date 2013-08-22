@@ -1,0 +1,58 @@
+# Updated by fix_deps.py
+pnacl/Debug/sort_json_pnacl.o: sort_json.cc \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/instance.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/ppb_console.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/instance_handle.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/view.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/resource.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/pass_ref.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/rect.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/point.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/size.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/logging.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/module.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_module.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/ppb.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/ppb_core.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_completion_callback.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_time.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/core.h \
+  C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/var.h picojson.h
+sort_json.cc:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/instance.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/ppb_console.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/instance_handle.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/view.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/resource.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/pass_ref.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/rect.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/point.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/size.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/logging.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/module.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_module.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/ppb.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/ppb_core.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_completion_callback.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/c/pp_time.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/core.h:
+C:/wamp/www/nacl_sdk/pepper_canary/include/ppapi/cpp/var.h:
+picojson.h:

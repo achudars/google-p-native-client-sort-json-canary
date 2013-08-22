@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<!--
+Copyright (c) 2013 The Chromium Authors. All rights reserved.
+Use of this source code is governed by a BSD-style license that can be
+found in the LICENSE file.
+-->
+<head>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+  <title>Google Native Client Module</title>
+  <script type="text/javascript" src="common.js"></script>
+  <script type="text/javascript" src="example.js"></script>
+</head>
+<body data-name="sort_json" data-tools="newlib glibc pnacl" data-configs="Debug Release" data-path="{tc}/{config}" data-width="512" data-height="512">
+
+<h2>Status: <span id="statusField">NO-STATUS</span></h2>
+
+<form id="main-form">
+  <div id="left">
+    <h2>Unsorted JavaScript input:</h2>
+    <textarea rows="10" cols="50" id="input" name="input">[{"name": 12},{"name": 2},{"name": 9},{"name": 8},{"name": 10},{"name": 1},{"name": 3},{"name": 5},{"name": 6},{"name": 11},{"name": 4},{"name": 7}]</textarea>
+  </div>
+  <div id="right">
+    <h2>Unsorted C++ Input:</h2>
+    <textarea rows="10" cols="50" id="input2" name="input2">[{"name": 99},{"name": 2},{"name": 9},{"name": 8},{"name": 10},{"name": 1},{"name": 3},{"name": 5},{"name": 6},{"name": 11},{"name": 4},{"name": 7}]</textarea>
+  </div>
+  <div id="bottom-left">
+    <h2>Sorted JavaScript Output:</h2>
+    <textarea rows="10" cols="50" id="expectedOutput"></textarea>
+  </div>
+  <div id="bottom-right">
+    <h2>Sorted C++ Output:</h2>
+    <textarea rows="10" cols="50" id="output" name="output"></textarea>
+  </div>
+</form>
+
+  <!-- The NaCl plugin will be embedded inside the element with id "listener".
+      See common.js.-->
+  <div id="listener"></div>
+</body>
+</html>

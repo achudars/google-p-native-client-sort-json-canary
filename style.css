@@ -1,0 +1,43 @@
+body, h1, h2, div {
+	font-family: 'Roboto', sans-serif;
+	color: #102E37;
+	text-align: center;
+}
+input {
+	width: 40%;
+	height: 20em;
+	font-size: 1em;
+}
+.loading {
+	background: #3498db;
+}
+.success {
+	background: #FCD271;
+}
+.fail {
+	background: #e74c3c;
+}
+form div {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #FFF;
+}
+form h2 {
+	text-align: center;
+	color: #FFF;
+}
+#left, #right {
+	background: #F78D3F;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+
+#bottom-left, #bottom-right {
+	background: #2BBBD8;
+	display: inline-block;
+}
+#expectedOutput {
+
+}
